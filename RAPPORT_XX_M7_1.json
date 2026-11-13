@@ -1,0 +1,340 @@
+{
+  "projet": "QXY32_A",
+  "audit": "XX-M7",
+  "date_utc": "2026-11-12T10:06:04.800061+00:00",
+  "methode": "Transformation homographique indépendante et signes exacts dans Q(sqrt(5))",
+  "independance": {
+    "importe_XXM": false,
+    "importe_XXM5": false,
+    "importe_XXM6": false,
+    "utilise_nombres_M5_comme_entree": false
+  },
+  "certificats": {
+    "Mxx": {
+      "total": 16,
+      "positifs": 13,
+      "nuls": 3,
+      "negatifs": 0,
+      "reconstruction_exacte": true,
+      "aucun_negatif": true
+    },
+    "Myy": {
+      "total": 16,
+      "positifs": 13,
+      "nuls": 3,
+      "negatifs": 0,
+      "reconstruction_exacte": true,
+      "aucun_negatif": true
+    },
+    "Mzz": {
+      "total": 16,
+      "positifs": 13,
+      "nuls": 3,
+      "negatifs": 0,
+      "reconstruction_exacte": true,
+      "aucun_negatif": true
+    },
+    "LOWER_Nxy": {
+      "total": 135,
+      "positifs": 108,
+      "nuls": 27,
+      "negatifs": 0,
+      "reconstruction_exacte": true,
+      "aucun_negatif": true
+    },
+    "LOWER_DET": {
+      "total": 288,
+      "positifs": 216,
+      "nuls": 72,
+      "negatifs": 0,
+      "reconstruction_exacte": true,
+      "aucun_negatif": true
+    },
+    "UPPER_Nxy": {
+      "total": 135,
+      "positifs": 123,
+      "nuls": 12,
+      "negatifs": 0,
+      "reconstruction_exacte": true,
+      "aucun_negatif": true
+    },
+    "UPPER_DET": {
+      "total": 288,
+      "positifs": 258,
+      "nuls": 30,
+      "negatifs": 0,
+      "reconstruction_exacte": true,
+      "aucun_negatif": true
+    }
+  },
+  "supports": {
+    "Mxx": {
+      "nombre_patterns_nuls": 4,
+      "faces_maximales": [
+        [
+          0,
+          0,
+          0,
+          null
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "nombre_faces_maximales": 2
+    },
+    "Myy": {
+      "nombre_patterns_nuls": 4,
+      "faces_maximales": [
+        [
+          0,
+          0,
+          0,
+          null
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "nombre_faces_maximales": 2
+    },
+    "Mzz": {
+      "nombre_patterns_nuls": 4,
+      "faces_maximales": [
+        [
+          0,
+          0,
+          0,
+          null
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "nombre_faces_maximales": 2
+    },
+    "LOWER_Nxy": {
+      "nombre_patterns_nuls": 9,
+      "faces_maximales": [
+        [
+          0,
+          null,
+          0,
+          null
+        ]
+      ],
+      "nombre_faces_maximales": 1
+    },
+    "LOWER_DET": {
+      "nombre_patterns_nuls": 9,
+      "faces_maximales": [
+        [
+          0,
+          null,
+          0,
+          null
+        ]
+      ],
+      "nombre_faces_maximales": 1
+    },
+    "UPPER_Nxy": {
+      "nombre_patterns_nuls": 3,
+      "faces_maximales": [
+        [
+          1,
+          null,
+          1,
+          1
+        ]
+      ],
+      "nombre_faces_maximales": 1
+    },
+    "UPPER_DET": {
+      "nombre_patterns_nuls": 3,
+      "faces_maximales": [
+        [
+          1,
+          null,
+          1,
+          1
+        ]
+      ],
+      "nombre_faces_maximales": 1
+    }
+  },
+  "checks": {
+    "Mxx_reconstruction": true,
+    "Mxx_nonnegativite": true,
+    "Myy_reconstruction": true,
+    "Myy_nonnegativite": true,
+    "Mzz_reconstruction": true,
+    "Mzz_nonnegativite": true,
+    "LOWER_Nxy_even_t": true,
+    "LOWER_Nxy_reconstruction": true,
+    "LOWER_Nxy_nonnegativite": true,
+    "LOWER_Nxy_support_unique": true,
+    "LOWER_DET_even_t": true,
+    "LOWER_DET_reconstruction": true,
+    "LOWER_DET_nonnegativite": true,
+    "LOWER_DET_support_unique": true,
+    "UPPER_Nxy_even_t": true,
+    "UPPER_Nxy_reconstruction": true,
+    "UPPER_Nxy_nonnegativite": true,
+    "UPPER_Nxy_support_unique": true,
+    "UPPER_DET_even_t": true,
+    "UPPER_DET_reconstruction": true,
+    "UPPER_DET_nonnegativite": true,
+    "UPPER_DET_support_unique": true,
+    "Mxx_comptage_identique_M5": true,
+    "Myy_comptage_identique_M5": true,
+    "Mzz_comptage_identique_M5": true,
+    "LOWER_Nxy_comptage_identique_M5": true,
+    "LOWER_DET_comptage_identique_M5": true,
+    "UPPER_Nxy_comptage_identique_M5": true,
+    "UPPER_DET_comptage_identique_M5": true,
+    "LOWER_Nxy_support_identique_M5": true,
+    "LOWER_DET_support_identique_M5": true,
+    "UPPER_Nxy_support_identique_M5": true,
+    "UPPER_DET_support_identique_M5": true,
+    "F_zero_origin": true,
+    "F_zero_corner": true,
+    "u_zero_origin": true,
+    "u_zero_corner": true,
+    "M_zero_origin": true,
+    "M_zero_corner": true
+  },
+  "comparaison_M5": {
+    "Mxx": {
+      "attendu_XXM5": [
+        16,
+        13,
+        3,
+        0
+      ],
+      "recalcule_XXM7": [
+        16,
+        13,
+        3,
+        0
+      ],
+      "identique": true
+    },
+    "Myy": {
+      "attendu_XXM5": [
+        16,
+        13,
+        3,
+        0
+      ],
+      "recalcule_XXM7": [
+        16,
+        13,
+        3,
+        0
+      ],
+      "identique": true
+    },
+    "Mzz": {
+      "attendu_XXM5": [
+        16,
+        13,
+        3,
+        0
+      ],
+      "recalcule_XXM7": [
+        16,
+        13,
+        3,
+        0
+      ],
+      "identique": true
+    },
+    "LOWER_Nxy": {
+      "attendu_XXM5": [
+        135,
+        108,
+        27,
+        0
+      ],
+      "recalcule_XXM7": [
+        135,
+        108,
+        27,
+        0
+      ],
+      "identique": true
+    },
+    "LOWER_DET": {
+      "attendu_XXM5": [
+        288,
+        216,
+        72,
+        0
+      ],
+      "recalcule_XXM7": [
+        288,
+        216,
+        72,
+        0
+      ],
+      "identique": true
+    },
+    "UPPER_Nxy": {
+      "attendu_XXM5": [
+        135,
+        123,
+        12,
+        0
+      ],
+      "recalcule_XXM7": [
+        135,
+        123,
+        12,
+        0
+      ],
+      "identique": true
+    },
+    "UPPER_DET": {
+      "attendu_XXM5": [
+        288,
+        258,
+        30,
+        0
+      ],
+      "recalcule_XXM7": [
+        288,
+        258,
+        30,
+        0
+      ],
+      "identique": true
+    }
+  },
+  "reserves": [
+    "Les signes sont calculés exactement dans Q(sqrt(5)).",
+    "Les certificats sont reconstruits sans importer XX-M ou XX-M5.",
+    "La comparaison XX-M5 est effectuée après le recalcul.",
+    "La positivité des coefficients Bernstein non négatifs implique la non-négativité du polynôme sur le cube.",
+    "L'analyse des supports doit être interprétée avec les faces maximales et les coordonnées libres.",
+    "La revue formelle externe reste distincte de cet audit."
+  ],
+  "script": {
+    "nom": "QXY32_A_AUDIT_INDEPENDANT_XX_M7_1_EXEC.py",
+    "taille_octets": 15951,
+    "sha256": "9bbcfc8a97f87c2b681d0aa229fd7a247f942282a84234e55b5a9d71ba2bf1e2"
+  },
+  "nombre_checks": 39,
+  "nombre_checks_reussis": 39,
+  "nombre_checks_echoues": 0,
+  "echecs": [],
+  "conclusion": "PASS_XXM7_RECONSTRUCTION_BERNSTEIN_INDEPENDANTE"
+}
