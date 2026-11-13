@@ -1,0 +1,19 @@
+{
+  "operation": "COMPLEMENT_SAUVEGARDE_QXY32_A",
+  "horodatage_utc": "2026-11-13T11-58-11Z",
+  "complete_le_manifeste": "MANIFESTE_SAUVEGARDE_2026-11-13T11-45-01Z.json",
+  "avertissement": "Ces empreintes sont valables uniquement si les deux fichiers deposes sont identiques octet pour octet a la version generee. Verifier en comparant les tailles affichees sur GitHub avec taille_octets ci-dessous. Si une taille differe, ces empreintes ne s'appliquent pas.",
+  "nombre_fichiers": 2,
+  "fichiers": [
+    {
+      "chemin": "XX_M5_V3_SCINDE/README.md",
+      "taille_octets": 3948,
+      "sha256": "2a0a2e568cb6890bc640a11c28a9cfc07e9f0b0c4514cdd55e30f8c7cf51622f"
+    },
+    {
+      "chemin": "XX_M5_V3_SCINDE/VERIF_COHERENCE.py",
+      "taille_octets": 6173,
+      "sha256": "c32525eb2d09e816f237ce25061c89334777e7d061a29d9e5e906d2b54835b35"
+    }
+  ]
+}
