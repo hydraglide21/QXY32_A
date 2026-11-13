@@ -1,0 +1,123 @@
+{
+  "operation": "QXY32_A_CLOTURE_ARCHIVE_CERTIFICAT_MAITRE",
+  "timestamp_utc": "2026-11-13T09:11:21.848201+00:00",
+  "rapport_reference": "QXY32_A_CERTIFICAT_MAITRE_RESULTATS/QXY32_A_CERTIFICAT_MAITRE_20261113T085520_514493Z.json",
+  "conclusion_reference": "THEOREME_QXY32_A_COMPLETEMENT_DEMONTRE",
+  "controles_reference": "107/107",
+  "regles": [
+    "Aucun calcul mathematique relance.",
+    "Aucun fichier historique modifie : copie uniquement.",
+    "Le manifeste lui-meme ne figure pas dans sa propre liste (auto-reference impossible)."
+  ],
+  "nombre_fichiers": 18,
+  "fichiers": [
+    {
+      "chemin": "EXEMPLE_RAPPORT_QXY32_A_CERTIFICAT_MAITRE_20261113T085152_139522Z.json",
+      "taille_octets": 15313,
+      "sha256": "afea9c62c9c0b74f068ece9629a8a40b63c60c4bac8bd28835c83b996841fee3",
+      "role": "Document annexe : rapport anterieur du meme script (meme conclusion), conserve comme exemple"
+    },
+    {
+      "chemin": "LISTE_107_CONTROLES.md",
+      "taille_octets": 6392,
+      "sha256": "c42064c4f74b85549d476e677c111de720759ea8649f745fa926c8888284eb23",
+      "role": "Document annexe : liste complete des 107 controles"
+    },
+    {
+      "chemin": "QXY32_A_AUDIT_INDEPENDANT_XX_M7_1_EXEC.py",
+      "taille_octets": 15951,
+      "sha256": "9bbcfc8a97f87c2b681d0aa229fd7a247f942282a84234e55b5a9d71ba2bf1e2",
+      "role": "4. Source XX-M7.1 : definitions exactes utilisees par le script maitre"
+    },
+    {
+      "chemin": "QXY32_A_CERTIFICAT_MAITRE_THEOREME.py",
+      "taille_octets": 34361,
+      "sha256": "806a21c951f4065349629d2d0b5caddfaa784cc8c3f29c944316a6689c7ad642",
+      "role": "1. Script Python maitre exact (version portable) ayant execute les 107 controles"
+    },
+    {
+      "chemin": "RAPPORT_XX_M7_1.json",
+      "taille_octets": 6945,
+      "sha256": "11589f82ef8a20a8d7b9aabfcffdae685587e6a3489671f200cd8199110aa659",
+      "role": "4. Rapport XX-M7.1 associe (contre-verification croisee des comptages)"
+    },
+    {
+      "chemin": "README.md",
+      "taille_octets": 3500,
+      "sha256": "3603ee35d72dddfe57b8c65c5e0aa60ee141eceffe77daa9bc65121d379e234d",
+      "role": "Document annexe : README du depot GitHub"
+    },
+    {
+      "chemin": "REPONSE_A_CHATGPT.md",
+      "taille_octets": 5020,
+      "sha256": "790cd2bde586d4cf9b38d1dc1f6a472798be0f7bf5cd566eadce7d7e5590eda5",
+      "role": "Document annexe : reponse a la demande de croisement"
+    },
+    {
+      "chemin": "QXY32_A_CERTIFICAT_MAITRE_RESULTATS/QXY32_A_CERTIFICAT_MAITRE_20261113T085520_514493Z.json",
+      "taille_octets": 15293,
+      "sha256": "db66abf659fad4f8151faac40184562457e3b3cded5e6a53ad6ad72fa7af2626",
+      "role": "2. Rapport de reference : 107/107, THEOREME_QXY32_A_COMPLETEMENT_DEMONTRE"
+    },
+    {
+      "chemin": "XX_M5_CONTRE_AUDIT_V3_RESULTATS/XX_M5_V3_20261113T050656_753487Z.json",
+      "taille_octets": 162922,
+      "sha256": "a8e63d477315c9ead54ca5aa1375253f3a57b75317d68bc2b068c2b9b7560e0c",
+      "role": "4. Rapport XX-M5 V3 associe (source de la scission)"
+    },
+    {
+      "chemin": "XX_M5_V3_SCINDE/MANIFESTE_SCISSION_XX_M5_V3.json",
+      "taille_octets": 2232,
+      "sha256": "5146601f11f871ce768df35cabb333921424be9b8d23a84878ebbe25de64976d",
+      "role": "3. Manifeste de scission de l'archive Bernstein"
+    },
+    {
+      "chemin": "XX_M5_V3_SCINDE/XX_M5_V3_ENTETE.json",
+      "taille_octets": 4340,
+      "sha256": "fd1370b2af521cedac5d5395d600fcc6a225085c875bcd3b7b2ff95e198ba798",
+      "role": "3. En-tete V3 : metadonnees, conclusion V3, 54 checks, totaux"
+    },
+    {
+      "chemin": "XX_M5_V3_SCINDE/XX_M5_V3_LOWER_DET.json",
+      "taille_octets": 38672,
+      "sha256": "db32ec65c6c4bc66e10f4ae0ee1b8a94589a6777685c4dbcf537578d7b8a3b00",
+      "role": "3. Archive Bernstein : certificat LOWER_DET (288 coefficients)"
+    },
+    {
+      "chemin": "XX_M5_V3_SCINDE/XX_M5_V3_LOWER_Nxy.json",
+      "taille_octets": 18052,
+      "sha256": "5386667b22498489af12b4095d2b33f5b9e1b8e9d87925d8f9fc33c9cb9f31b3",
+      "role": "3. Archive Bernstein : certificat LOWER_Nxy (135 coefficients)"
+    },
+    {
+      "chemin": "XX_M5_V3_SCINDE/XX_M5_V3_Mxx.json",
+      "taille_octets": 2381,
+      "sha256": "dc13ac4a514c2aff7957c8a32ed12c4074d515e3cf7706c8e331e097b4ef7eb9",
+      "role": "3. Archive Bernstein : certificat Mxx (16 coefficients)"
+    },
+    {
+      "chemin": "XX_M5_V3_SCINDE/XX_M5_V3_Myy.json",
+      "taille_octets": 2381,
+      "sha256": "48815cc03a8b23c7a92671daebd6d0575c0f9ae64ea4d20827d19d32872f07a8",
+      "role": "3. Archive Bernstein : certificat Myy (16 coefficients)"
+    },
+    {
+      "chemin": "XX_M5_V3_SCINDE/XX_M5_V3_Mzz.json",
+      "taille_octets": 2381,
+      "sha256": "576233af0e1d37aacb5f84aae6b25ac1c49d24799cb0a4a54a190de8dd487cae",
+      "role": "3. Archive Bernstein : certificat Mzz (16 coefficients)"
+    },
+    {
+      "chemin": "XX_M5_V3_SCINDE/XX_M5_V3_UPPER_DET.json",
+      "taille_octets": 39663,
+      "sha256": "97e356c2baf8b18bfbd5122d0f8d11fd7d28fb90734555b9326f54e16a311134",
+      "role": "3. Archive Bernstein : certificat UPPER_DET (288 coefficients)"
+    },
+    {
+      "chemin": "XX_M5_V3_SCINDE/XX_M5_V3_UPPER_Nxy.json",
+      "taille_octets": 18350,
+      "sha256": "cbda725faf56c8c2e89fbf8b43881c5c2c7f302f7d3a92788691ef04a272c89c",
+      "role": "3. Archive Bernstein : certificat UPPER_Nxy (135 coefficients)"
+    }
+  ]
+}
