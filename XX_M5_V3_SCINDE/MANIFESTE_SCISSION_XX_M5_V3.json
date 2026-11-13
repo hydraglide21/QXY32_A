@@ -1,0 +1,59 @@
+{
+  "operation": "SCISSION_RAPPORT_XX_M5_V3",
+  "source": {
+    "fichier": "XX_M5_V3_20261113T050656_753487Z.json",
+    "octets": 162922,
+    "sha256": "a8e63d477315c9ead54ca5aa1375253f3a57b75317d68bc2b068c2b9b7560e0c"
+  },
+  "parts": [
+    {
+      "fichier": "XX_M5_V3_ENTETE.json",
+      "contenu": "En-tête : métadonnées, conclusion, 54 checks, totaux, géométrie, source XX-M, portée",
+      "octets": 4340,
+      "sha256": "fd1370b2af521cedac5d5395d600fcc6a225085c875bcd3b7b2ff95e198ba798"
+    },
+    {
+      "fichier": "XX_M5_V3_Mxx.json",
+      "contenu": "Certificat Mxx : 16 coefficients Bernstein",
+      "octets": 2381,
+      "sha256": "dc13ac4a514c2aff7957c8a32ed12c4074d515e3cf7706c8e331e097b4ef7eb9"
+    },
+    {
+      "fichier": "XX_M5_V3_Myy.json",
+      "contenu": "Certificat Myy : 16 coefficients Bernstein",
+      "octets": 2381,
+      "sha256": "48815cc03a8b23c7a92671daebd6d0575c0f9ae64ea4d20827d19d32872f07a8"
+    },
+    {
+      "fichier": "XX_M5_V3_Mzz.json",
+      "contenu": "Certificat Mzz : 16 coefficients Bernstein",
+      "octets": 2381,
+      "sha256": "576233af0e1d37aacb5f84aae6b25ac1c49d24799cb0a4a54a190de8dd487cae"
+    },
+    {
+      "fichier": "XX_M5_V3_LOWER_Nxy.json",
+      "contenu": "Certificat LOWER_Nxy : 135 coefficients Bernstein",
+      "octets": 18052,
+      "sha256": "5386667b22498489af12b4095d2b33f5b9e1b8e9d87925d8f9fc33c9cb9f31b3"
+    },
+    {
+      "fichier": "XX_M5_V3_LOWER_DET.json",
+      "contenu": "Certificat LOWER_DET : 288 coefficients Bernstein",
+      "octets": 38672,
+      "sha256": "db32ec65c6c4bc66e10f4ae0ee1b8a94589a6777685c4dbcf537578d7b8a3b00"
+    },
+    {
+      "fichier": "XX_M5_V3_UPPER_Nxy.json",
+      "contenu": "Certificat UPPER_Nxy : 135 coefficients Bernstein",
+      "octets": 18350,
+      "sha256": "cbda725faf56c8c2e89fbf8b43881c5c2c7f302f7d3a92788691ef04a272c89c"
+    },
+    {
+      "fichier": "XX_M5_V3_UPPER_DET.json",
+      "contenu": "Certificat UPPER_DET : 288 coefficients Bernstein",
+      "octets": 39663,
+      "sha256": "97e356c2baf8b18bfbd5122d0f8d11fd7d28fb90734555b9326f54e16a311134"
+    }
+  ],
+  "reconstitution": "Concaténer l'en-tête + les 7 certificats redonne le rapport complet (certificats = liste des 7 fichiers)."
+}
