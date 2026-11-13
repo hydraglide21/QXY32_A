@@ -1,0 +1,95 @@
+{
+  "certificat": "Mxx",
+  "polynome": "Mxx(x, y, z)",
+  "domaine": "x, y, z dans [0, 2]",
+  "base": "Bernstein tensorielle, degre (2, 2, 2)",
+  "coefficients": [
+    [
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          "(1 + 2*sqrt(5))/4",
+          "0"
+        ],
+        [
+          "(1 + 2*sqrt(5))/4",
+          "0"
+        ]
+      ],
+      [
+        [
+          "(1 + 2*sqrt(5))/4",
+          "0"
+        ],
+        [
+          "(1 + 2*sqrt(5))/4",
+          "0"
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          "(3 + sqrt(5))/2",
+          "0"
+        ],
+        [
+          "(3 + sqrt(5))/2",
+          "0"
+        ]
+      ],
+      [
+        [
+          "(3 + sqrt(5))/2",
+          "0"
+        ],
+        [
+          "(3 + sqrt(5))/2",
+          "0"
+        ]
+      ]
+    ]
+  ],
+  "total": 16,
+  "positifs": 13,
+  "nuls": 3,
+  "negatifs": 0,
+  "reconstruction_exacte": true,
+  "aucun_negatif": true,
+  "interpretation": "Mxx >= 0 sur [0,2]^3. Les 3 coefficients nuls correspondent a x = 0 (face d'annulation).",
+  "faces_nulles_maximales": [
+    [
+      0,
+      0,
+      0,
+      null
+    ],
+    [
+      1,
+      1,
+      1,
+      1
+    ]
+  ]
+}
