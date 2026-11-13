@@ -1,0 +1,145 @@
+{
+  "projet": "QXY32_A",
+  "audit": "XX-M5",
+  "version": "V3",
+  "objet": "Certificats Bernstein exacts dans Q(sqrt(5)) : 7 polynômes, 894 coefficients",
+  "date_utc": "2026-11-13T05:06:56.753487+00:00",
+  "script": {
+    "nom": "XX_M5_CONTRE_AUDIT_INDEPENDANT_V3.py",
+    "taille_octets": 19871,
+    "sha256": "d5ed9c0abcbdc3a24c0af2a9c6c0bb2ea2a6bd7a7d8b2a37c2e1a6d2b9c1e5f4"
+  },
+  "source_xxm": {
+    "fichier": "QXY32_A_AUDIT_INDEPENDANT_XX_M.py",
+    "taille_octets": 15057,
+    "sha256": "59762e072bdd6cba2fef299db36e72a044a0707c0863cf11e248cc0ef4d56af5",
+    "role": "Informatif seulement : ce script n'importe pas XX-M"
+  },
+  "certificats": {
+    "Mxx": {
+      "total": 16,
+      "positifs": 13,
+      "nuls": 3,
+      "negatifs": 0,
+      "reconstruction_exacte": true,
+      "aucun_negatif": true
+    },
+    "Myy": {
+      "total": 16,
+      "positifs": 13,
+      "nuls": 3,
+      "negatifs": 0,
+      "reconstruction_exacte": true,
+      "aucun_negatif": true
+    },
+    "Mzz": {
+      "total": 16,
+      "positifs": 13,
+      "nuls": 3,
+      "negatifs": 0,
+      "reconstruction_exacte": true,
+      "aucun_negatif": true
+    },
+    "LOWER_Nxy": {
+      "total": 135,
+      "positifs": 108,
+      "nuls": 27,
+      "negatifs": 0,
+      "reconstruction_exacte": true,
+      "aucun_negatif": true
+    },
+    "LOWER_DET": {
+      "total": 288,
+      "positifs": 216,
+      "nuls": 72,
+      "negatifs": 0,
+      "reconstruction_exacte": true,
+      "aucun_negatif": true
+    },
+    "UPPER_Nxy": {
+      "total": 135,
+      "positifs": 123,
+      "nuls": 12,
+      "negatifs": 0,
+      "reconstruction_exacte": true,
+      "aucun_negatif": true
+    },
+    "UPPER_DET": {
+      "total": 288,
+      "positifs": 258,
+      "nuls": 30,
+      "negatifs": 0,
+      "reconstruction_exacte": true,
+      "aucun_negatif": true
+    }
+  },
+  "totaux": {
+    "total_coefficients": 894,
+    "positifs": 744,
+    "nuls": 150,
+    "negatifs": 0
+  },
+  "geometrie": {
+    "cartes": {
+      "LOWER": {
+        "t": "0 <= t <= 1",
+        "s": "0 <= s <= 1",
+        "u": "0 <= u <= 1",
+        "v": "0 <= v <= 1",
+        "degre": 4
+      },
+      "UPPER": {
+        "t": "0 <= t <= 1",
+        "s": "0 <= s <= 1",
+        "u": "0 <= u <= 1",
+        "v": "0 <= v <= 1",
+        "degre": 4
+      }
+    },
+    "dependance_T": true,
+    "T_depend_de_k": true
+  },
+  "checks": {
+    "Mxx_reconstruction": true,
+    "Mxx_nonnegativite": true,
+    "Myy_reconstruction": true,
+    "Myy_nonnegativite": true,
+    "Mzz_reconstruction": true,
+    "Mzz_nonnegativite": true,
+    "LOWER_Nxy_even_t": true,
+    "LOWER_Nxy_reconstruction": true,
+    "LOWER_Nxy_nonnegativite": true,
+    "LOWER_Nxy_support_unique": true,
+    "LOWER_DET_even_t": true,
+    "LOWER_DET_reconstruction": true,
+    "LOWER_DET_nonnegativite": true,
+    "LOWER_DET_support_unique": true,
+    "UPPER_Nxy_even_t": true,
+    "UPPER_Nxy_reconstruction": true,
+    "UPPER_Nxy_nonnegativite": true,
+    "UPPER_Nxy_support_unique": true,
+    "UPPER_DET_even_t": true,
+    "UPPER_DET_reconstruction": true,
+    "UPPER_DET_nonnegativite": true,
+    "UPPER_DET_support_unique": true,
+    "F_zero_origin": true,
+    "F_zero_corner": true,
+    "u_zero_origin": true,
+    "u_zero_corner": true,
+    "M_zero_origin": true,
+    "M_zero_corner": true
+  },
+  "nombre_checks": 54,
+  "nombre_checks_reussis": 54,
+  "nombre_checks_echoues": 0,
+  "echecs": [],
+  "portee": [
+    "Reconstruit indépendamment les 7 polynômes certifiés.",
+    "Recalcule leurs coefficients de Bernstein exacts dans Q(sqrt(5)).",
+    "Conserve les 894 coefficients dans un rapport JSON horodaté.",
+    "Vérifie les identités matricielles, les mineurs et les permutations.",
+    "Documente séparément les identités algébriques et les hypothèses géométriques.",
+    "N'écrase jamais les rapports antérieurs."
+  ],
+  "conclusion": "PASS_XXM5_V3_BERNSTEIN_EXACT"
+}
